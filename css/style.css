@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+.container{
+    max-width: 1400px;
+    width: 98%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+
+/** Header **/
+header{
+    padding: 20px 2%;
+}
+header .logo img{
+    float: left;
+    width: 236px;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    padding: 8px 0;
+    list-style-type: none;
+}
+header nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+header ul li a{
+    text-decoration: none;
+    color: #b4b4b4;
+}
+/***/
+
+/** Mosaico **/
+.mosaico-single{
+    float: left;
+    width: calc(100%/6);
+}
+.img-mosaico-single{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+}
+
+/***/
+
+/** Serviços **/
+section.servicos > .container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -40px;
+}
+section.servicos > .container .box-servico:nth-of-type(1){
+    width: 30%;
+    padding: 45px 2%;
+    text-align: center;
+    background-color: #576975;
+}
+section.servicos > .container .box-servico:nth-of-type(2){
+    width: 40%;
+    padding: 75px 2%;
+    text-align: center;
+    background-color: #688293;
+}
+section.servicos > .container .box-servico:nth-of-type(3){
+    width: 30%;
+    padding: 45px 2%;
+    text-align: center;
+    background-color: #576975;
+}
+section.servicos > .container .box-servico h2{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+section.servicos > .container .box-servico p{
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 8px;
+}
+section.servicos > .container .box-servico:nth-of-type(1),section.servicos > .container .box-servico:nth-of-type(3){
+    background-image: url('../img/icone_dente.png');
+    background-size: 18px 18px;
+    background-position: center calc(100% - 5px);
+    background-repeat: no-repeat;
+}
+/***/
+
+/** profissional **/
+.profissional{
+    margin: 2% 0;
+}
+.profissional > div.container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.img-fernanda{
+    background-image: url(../img/img_perfil.png);
+    width: 40%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+.texto-profissional{
+    width: 56%;
+    margin-left: 4%;
+}
+.texto-profissional h2{
+    margin-bottom: 1.5%;
+    font-size: 18px;
+    color: #6E8293;
+}
+.texto-profissional p{
+    margin-bottom: 3.5%;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+/*****/
+
+/** Video **/
+.video .video-wrapper{
+    width: 32.6%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+}
+.video-wrapper{
+    width: 100%;
+    height: 247px;
+}
+.video-wrapper:nth-of-type(2){
+    margin: 0 1%;
+}
+/*****/
+
+/** Tratamentos **/
+.tratamento{
+    margin: 8% 0 6% 0;
+}
+.tratamento > .container > h2{
+    text-align: center;
+    color: #698293;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.tratamento .tratamento-one{
+    float: left;
+    width: 33.33%;
+    margin-bottom: 30px;
+}
+.tratamento-one h2{
+    font-size: 18px;
+    color: #737373;
+}
+.tratamento-one p{
+    padding: 10px 0;
+    font-size: 13px;
+    color: #b4b4b4;
+    width: 98%;   
+}
+/*****/
+
+/** Depoimento **/
+.depoimento{
+    margin: 4% 0;
+    text-align: center;
+}
+.depoimento h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+.depoimento p{
+    font-size: 15px;
+    color: #b4b4b4;
+    width: 400px;
+    margin: 3% auto 1.5% auto;
+}
+.depoimento span{
+    position: relative;
+    top: 6px;
+    margin-left: 8px;
+    vertical-align: top;
+    font-size: 13px;
+    color: #b4b4b4;
+}
+/*****/
+
+/** Divulgação **/
+.divulgacao{
+    width: 100%;
+    text-align: center;
+}
+.instagram{
+    width: 100%;
+    background-color: #98A5AE;
+    padding: 4% 0;
+    color: white;
+    font-size: 14px;
+}
+.instagram img{
+    margin-bottom: 15px;
+}
+.instagram p{
+    line-height: 25px;
+}
+
+.colecao-images{
+    width: 100%;
+    background-color: white;
+}
+.imagem-one{
+    width: calc(100% / 9);
+    background-color: #ccc;
+    height: 200px;
+    float: left;
+    border: 8px solid white;
+}
+
+.facebook{
+    width: 100%;
+    background-color: #576975;
+    padding: 4% 0;
+    color: white;
+    font-size: 14px;
+}
+.facebook img{
+    margin-bottom: 15px;
+}
+.facebook p{
+    line-height: 25px;
+}
+/*****/
+
+/** Contato **/
+.contato{
+    text-align: center;
+    padding: 5% 0;
+    color: #ccc;
+}
+.contato > h2{
+    color: #698293;
+    font-size: 18px;
+}
+.contato form{
+    width: 95%;
+    max-width: 490px;
+    margin: 2% auto;
+}
+.contato form p{
+    text-align: left;
+}
+.contato form input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.contato form .nome{
+    width: 100%;
+}
+
+.contato form .email{
+    width: 49%;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.contato form .telefone{
+    width: 48%;
+    display: inline-block;
+}
+
+.contato form .mensagem{
+    width: 100%;
+}
+.contato form .mensagem textarea{
+    width: 100%;
+    resize: none;
+    height: 120px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.contato form input[type="submit"]{
+    padding: 2% 5%;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
+}
+/*****/
+
+/** Footer **/
+footer{
+    padding: 3% 0;
+    width: 100%;
+    background-color: #688293;
+    color: white;
+}
+footer > .container{
+    max-width: 1100px;
+}
+footer h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 14px;
+}
+.footer-telefone{
+    width: 33%;
+    float: left;
+}
+.footer-horarios{
+    width: 33%;
+    float: left;
+}
+.footer-endereco{
+    width: 33%;
+    float: left;
+}
+
+/* Responsivo */
+@media screen and (max-width: 770px){
+    /** Header **/
+    header{
+        padding: 20px 2%;
+        text-align: center;
+    }
+    header .logo img{
+        float: none;
+        width: 236px;
+    }
+    header nav{
+        float: none;
+    }
+    header nav ul{
+        padding: 8px 0;
+        list-style-type: none;
+    }
+    header nav ul li{
+        float: none;
+        display: inline;
+        font-size: 12px;
+        padding: 2px 20px;
+        text-transform: uppercase;
+    }
+    header ul li a{
+        text-decoration: none;
+        color: #b4b4b4;
+    }
+    /***/
+
+    /** Tratamentos **/
+    .tratamento{
+        margin: 8% 0 6% 0;
+    }
+    .tratamento > .container > h2{
+        text-align: center;
+        color: #698293;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .tratamento .tratamento-one{
+        float: left;
+        text-align: center;
+        width: 33.33%;
+        margin-bottom: 30px;
+    }
+    .tratamento-one h2{
+        font-size: 18px;
+        color: #737373;
+    }
+    .tratamento-one p{
+        padding: 10px 0;
+        font-size: 13px;
+        color: #b4b4b4;
+        width: 98%;   
+    }
+    /*****/
+
+    /** profissional **/
+    .profissional{
+        margin: 2% 0;
+    }
+    .profissional > div.container{
+        max-width: 800px;
+        display: block;
+        align-items: center;
+        position: relative;
+    }
+    .img-fernanda{
+        background-image: url(../img/img_perfil.png);
+        width: 70%;
+        margin: 2% auto;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+    .texto-profissional{
+        width: 80%;
+        margin-left: 4%;
+        margin: 0 auto;
+    }
+    .texto-profissional h2{
+        margin-bottom: 3%;
+        font-size: 18px;
+        color: #6E8293;
+        text-align: center;
+    }
+    .texto-profissional p{
+        margin-bottom: 3.5%;
+        font-size: 14px;
+        color: #4b4b4b;
+    }
+    /*****/
+}
